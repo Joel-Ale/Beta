@@ -1,10 +1,3 @@
- <?php 
-	 require '../conexion.php';
-	   // carga de municipios
-	$CsltMuni= "SELECT Cve_Mun,Nom_Mun FROM localidades GROUP BY Nom_Mun ORDER BY Cve_Mun";
-
-	 $JtarMuni = mysqli_query($conex,$CsltMuni) or die(mysqli_error($conex));
- ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
